@@ -1,8 +1,8 @@
-var num1=55;
-var num2=66;
-console.log("sum of num1 & num2 is=" + (num1+num2));
-function okk (){
-     let a=6;
+// var num1=55;
+// var num2=66;
+// console.log("sum of num1 & num2 is=" + (num1+num2));
+// function okk (){
+//      let a=6;
     //  if(a>0)
     //  {
     //     alert("positive")
