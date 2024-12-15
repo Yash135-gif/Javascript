@@ -79,19 +79,19 @@
       //   }
 
         
-         // Answer 8-----------------------------------------------------
-      //  let i;
-      //  let tEven;
-      //  let array1=[];
+        //  Answer 8-----------------------------------------------------
+       let i;
+       let tEven;
+       let array1=[];
 
-      // for( i=1;i<=5;i++){
+      for( i=1;i<=5;i++){
          
-      //  tEven=prompt("enter the number")
-      //  array1.push(tEven)
-      // }
+       tEven=prompt("enter the number")
+       array1.push(tEven)
+      }
          
-      // let eN=array1.filter((n)=> n%2==0)
-      // alert(eN)
+      let eN=array1.filter((n)=> n%2==0)
+      alert(eN)
           
 
       // Answer 5--------------------------------------------------------------
@@ -103,14 +103,14 @@
       //    array2.push(fav)
       // }
       // alert("your favourite fruits are " + "["+ array2 + ']' )
-      let a;
-        let array3=[10,20,30,40,50]
-        let i;
-        let v=0;
-        for(i=1;i<=5;i++){
-          v=parInt(v+array3.map((n)=> n))
-        }
-        console.log(v)
+      // let a;
+      //   let array3=[10,20,30,40,50]
+      //   let i;
+      //   let v=0;
+      //   for(i=1;i<=5;i++){
+      //     v=parInt(v+array3.map((n)=> n))
+      //   }
+      //   console.log(v)
     
 
 
