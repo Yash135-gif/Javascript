@@ -80,40 +80,46 @@
 
         
         //  Answer 8-----------------------------------------------------
-       let i;
-       let tEven;
-       let array1=[];
+      //  let i;
+      //  let tEven;
+      //  let array1=[];
 
-      for( i=1;i<=5;i++){
+      // for( i=1;i<=5;i++){
          
-       tEven=prompt("enter the number")
-       array1.push(tEven)
-      }
+      //  tEven=prompt("enter the number")
+      //  array1.push(tEven)
+      // }
          
-      let eN=array1.filter((n)=> n%2==0)
-      alert(eN)
+      // let eN=array1.filter((n)=> n%2==0)
+      // alert(eN)
           
 
       // Answer 5--------------------------------------------------------------
+       
+      // let frutis;
+      // let array10=[];
+      
+      //  for(let i=1;i<=3;i++){
+      // fruits=prompt("enter fav fruits")
+      // array10.push(fruits)
+      //  }
+        
+      //  alert(`your favourite fruits are: [${ array10}]`)
+   
+      // Answer 7---------------------------------------------------------------
 
-      // let i;
-      // let array2=[]
-      // for(i=1;i<=3;i++){
-      //    let fav=prompt("enter fruits")
-      //    array2.push(fav)
-      // }
-      // alert("your favourite fruits are " + "["+ array2 + ']' )
-      // let a;
-      //   let array3=[10,20,30,40,50]
-      //   let i;
-      //   let v=0;
-      //   for(i=1;i<=5;i++){
-      //     v=parInt(v+array3.map((n)=> n))
-      //   }
-      //   console.log(v)
-    
+//       let input;
+//      let array11=[]
+//      let sum=0;
+//      let helper;
+//      for(i=1;i<=5;i++){
+//       input=parseInt(prompt("enter the number"))
+//       array11.push(input)
+//       helper=array11.pop()
+//       sum=sum+helper
+//      }
+//      alert("the sum is: " + sum)
 
-
-
+     
      
       
