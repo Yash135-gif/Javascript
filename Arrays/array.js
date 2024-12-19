@@ -121,5 +121,14 @@
 //      alert("the sum is: " + sum)
 
      
+   function image1(){
+    let show1=document.querySelector("#design")
+      show1.style.backgroundImage=url(download.jpg)
+   }
+
      
-      
+   function image2(){
+      show1=document.querySelector("#design")
+       show1.style.backgroundImage=url(download.jpg)
+    }
+    

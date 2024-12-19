@@ -33,7 +33,9 @@
 
    const friends={...yashA,...yashB};
    console.log(friends)
+    
 
+    
         
    
      
