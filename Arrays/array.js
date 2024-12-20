@@ -121,14 +121,68 @@
 //      alert("the sum is: " + sum)
 
      
-   function image1(){
-    let show1=document.querySelector("#design")
-      show1.style.backgroundImage=url(download.jpg)
+//    function image1(){
+//     let show1=document.querySelector("#design")
+//       show1.src="download.jpg"
+//    }
+ 
+
+// function startC(){
+//       let circle1=document.querySelector("#box") 
+//        circle1.style.borderRadius="50%"
+
+// }
+    
+// function endC(){
+//       let circle2=document.querySelector("#box") 
+//        circle2.style.borderRadius="0%"
+
+// }
+
+//   let counter=0
+//   function inc(){
+//       counter++
+//       let show1=document.querySelector("#change")
+//       show1.innerHTML=counter
+//   }
+
+//   function dec(){
+//       counter--
+//       let show2=document.querySelector("#change")
+//       show2.innerHTML=counter
+//   }
+
+//   function reset(){
+//       counter=0
+//       let show3=document.querySelector("#change")
+//       show3.innerHTML=counter
+//   }
+   
+
+//   function mrIndia(){
+//      let show1=document.querySelector("#box1")
+//      show1.style.display=("block")
+//   }
+
+   
+     FontSize 
+
+   
+      let fs=16; 
+
+    inc=()=>{
+       fs=fs+2
+      let show1=document.querySelector("#vn")
+      show1.style.fontSize=fs+"px"
+    }
+
+    dec=()=>{
+      fs=fs-2
+    let show2=document.querySelector("#vn")
+     show2.style.fontSize=fs+"px"
    }
 
-     
-   function image2(){
-      show1=document.querySelector("#design")
-       show1.style.backgroundImage=url(download.jpg)
-    }
-    
+  
+
+  
+ 
