@@ -165,22 +165,22 @@
 //   }
 
    
-     FontSize 
+    //  FontSize 
 
    
-      let fs=16; 
+    //   let fs=16; 
 
-    inc=()=>{
-       fs=fs+2
-      let show1=document.querySelector("#vn")
-      show1.style.fontSize=fs+"px"
-    }
+    // inc=()=>{
+    //    fs=fs+2
+    //   let show1=document.querySelector("#vn")
+    //   show1.style.fontSize=fs+"px"
+    // }
 
-    dec=()=>{
-      fs=fs-2
-    let show2=document.querySelector("#vn")
-     show2.style.fontSize=fs+"px"
-   }
+  //   dec=()=>{
+  //     fs=fs-2
+  //   let show2=document.querySelector("#vn")
+  //    show2.style.fontSize=fs+"px"
+  //  }
 
   
 
