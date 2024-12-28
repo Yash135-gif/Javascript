@@ -8,11 +8,11 @@
    
 
     
-// }
+}
 
-    // let counter=0;
-    // let inc=()=> {
-    //    let show1=document.querySelector("#maths")
-    //    counter++
-    //     show1.innerHTML=counter
-    // }
+    let counter=0;
+    let inc=()=> {
+       let show1=document.querySelector("#maths")
+       counter++
+        show1.innerHTML=counter
+    }
