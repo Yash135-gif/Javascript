@@ -20,8 +20,8 @@
 
  
 
-//       obj.email="yashg4884@gmail.com"    // new key:value; add karna ka liya.
-//   console.log(obj)
+      obj.email="yashg4884@gmail.com"    // new key:value; add karna ka liya.
+  console.log(obj)
     
 //     //   Delete karna-----------------------------------------
 
