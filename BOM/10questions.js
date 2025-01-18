@@ -24,8 +24,10 @@
 //  let price=parseInt(prompt("enter the price of item"))
 //  let dis=confirm("do you have the discout coupen")
 //  if(dis==true){
-//     let tP=price/10
-//     alert(price-tP)
+//     alert(price*0.9)
+//  }
+//  else{
+//   alert(price)
 //  }
    
     //   ----------------------------------------------- Question 4 -------------------------------------------------
@@ -86,6 +88,8 @@
 //    input=prompt("enter the value bigger than 10")
 //   }while(input<=10)
 
+      //  ----------------------------------------------- Question 10 -------------------------------------------------
+
 //   let day=parseInt(prompt('enter the day of the week'))
 
 //   switch (day){
@@ -117,4 +121,24 @@
 //    alert("Invalid day")
 
 //   }
+   
+  //  Guessing Game
+
+ function play(){
+  let number=parseInt(prompt("enter any number between 1 and 20"))
+   if(number==10){
+    alert("congo,You won the game")
+   }
+   else if(number<10){
+    alert("Too low")
+   }
+   else if(number>10){
+    alert("Too high")
+   }
+ }
+
+ function play1(){
+  let number
+  number=parseInt(prompt("enter any number between 1 and 20"))
   
+ }
