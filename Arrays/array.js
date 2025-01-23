@@ -3,7 +3,7 @@
   // fruits.unshift("grapes","pineapple") 
   // document.write(fruits)
   
-  // let fruits=["apple","mango","banana","ornage"]
+  let fruits=["apple","mango","banana","ornage"]
 
   // console.log(frutis.length)
 
@@ -20,9 +20,23 @@
   //  console.log(cricketers)
 
   
+    // document.write(fruits.slice(1,3))
+    // Document.write(fruits.splice(1,0,"grapes"))
+    // Document.write(fruits.splice(1,1,"pineapple"))
 
+    // document.write(fruits.reverse())
 
+    // let abc=[1,9,5,6,4,8]
+    // document.write(abc.sort()) 
+    // document.write(abc.reverse())
+    
+    // function okk(){
+    //   let show=document.getElementById("text")
+    //   show.innerHTML="hello"
+    // }
 
+      
+   
 
     
 
