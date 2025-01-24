@@ -5,8 +5,8 @@ let start=()=>{
 }
 let start1=()=>{
     let show2=document.querySelector("#box")
-   
-
+    
+    
     
 }
 

@@ -35,6 +35,48 @@
     //   show.innerHTML="hello"
     // }
 
+    // function okk(){
+    //   let show=document.querySelector(".text")
+    //   show.innerHTML="this is an array"
+    //   show.style.color="blue"
+    // }
+
+    // let arr=["you","where","that","drawing"]
+    // console.log(arr.slice(1,3))
+    // console.log(arr.splice(1,2,"giant"))
+    // console.log(arr)
+    // console.log(arr.sort().reverse())
+
+    //  DOM Definition  = It is an tree like structure of an html where javascript can and change any content and tag.
+
+
+// function flag1(){
+//     let show=document.querySelector("#square1")
+//     show.style.backgroundColor="red"
+// }
+// function flag2(){
+//   let show=document.querySelector("#square2")
+//   show.style.backgroundColor="white"
+// }
+// function flag3(){
+//   let show=document.querySelector("#square3")
+//   show.style.backgroundColor="blue"
+// }
+
+function image1(){
+    let show=document.querySelector("#insertimage")
+    show.style.backgroundImage="url(google image.png)"
+}
+
+
+
+
+
+
+
+
+
+     
       
    
 
