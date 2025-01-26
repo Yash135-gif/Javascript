@@ -3,7 +3,7 @@
   // fruits.unshift("grapes","pineapple") 
   // document.write(fruits)
   
-  let fruits=["apple","mango","banana","ornage"]
+  // let fruits=["apple","mango","banana","ornage"]
 
   // console.log(frutis.length)
 
@@ -47,7 +47,7 @@
     // console.log(arr)
     // console.log(arr.sort().reverse())
 
-    //  DOM Definition  = It is an tree like structure of an html where javascript can and change any content and tag.
+    //  DOM Definition  = It is an tree like structure of an html where javascript can enter and change any content and tag.
 
 
 // function flag1(){
@@ -56,17 +56,67 @@
 // }
 // function flag2(){
 //   let show=document.querySelector("#square2")
-//   show.style.backgroundColor="white"
-// }
-// function flag3(){
-//   let show=document.querySelector("#square3")
-//   show.style.backgroundColor="blue"
+// //   show.style.backgroundColor="white"
+// // }
+// // function flag3(){
+// //   let show=document.querySelector("#square3")
+// //   show.style.backgroundColor="blue"
+// // }
+
+
+     
+
+// function image1(){
+//     let show=document.querySelector("#insertimage")
+//     show.style.backgroundImage="url(google image.png)"
 // }
 
-function image1(){
-    let show=document.querySelector("#insertimage")
-    show.style.backgroundImage="url(google image.png)"
-}
+//   function okk(){
+//     let show=document.querySelector("#ok")
+//     show.src="download.jpg"
+//   }  
+
+// function color(){
+//   let show1=document.querySelector(".d1")
+//   show1.style.backgroundColor="green"
+//     let show2=document.querySelector(".d2")
+//   show2.style.backgroundColor="red"
+//     let show3=document.querySelector(".d3")
+//   show3.style.backgroundColor="black"
+// }
+
+// let show
+// function color(){
+//    show=document.querySelector(".jadoo")
+//   if(show.style.display=="block"){
+//     show.style.display="none"
+//   }
+
+//  else {
+//      show.style.display="block"
+//  }
+
+// }
+
+  // function red(){
+  //   let show1=document.querySelector(".test")
+  //   show1.style.backgroundColor="red"
+  // }
+  // function blue(){
+  //   let show2=document.querySelector(".test")
+  //   show2.style.backgroundColor="blue"
+  // }
+  // function restart(){
+  //   let show3=document.querySelector(".test")
+  //   show3.style.backgroundColor="transparent"
+  // }
+
+
+
+
+
+
+
 
 
 
