@@ -111,12 +111,7 @@
   //   show3.style.backgroundColor="transparent"
   // }
 
-
-
-
-
-
-
+   
 
 
 
