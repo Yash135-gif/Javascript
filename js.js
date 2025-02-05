@@ -153,44 +153,48 @@ let arr=[
 
 // console.log(ok)
 
-let students=[
-    {
-        name:"Akash",
-        age:21
-    },
-    {
-        name:"Adarsh",
-        age:17
-    },
-    {
-        name:"Amir",
-        age:18
-    },
-    {
-        name:"Raman",
-        age:23
-    },
-    {
-        name:"Nidhi",
-        age:16
-    },
-]
+// let students=[
+//     {
+//         name:"Akash",
+//         age:21
+//     },
+//     {
+//         name:"Adarsh",
+//         age:17
+//     },
+//     {
+//         name:"Amir",
+//         age:18
+//     },
+//     {
+//         name:"Raman",
+//         age:23
+//     },
+//     {
+//         name:"Nidhi",
+//         age:16
+//     },
+// ]
 
-let ans=students.filter((e)=>
-{
+// let ans=students.filter((e)=>
+// {
      
-      return e.age>=18
+//       return e.age>=18
      
-} 
-).map((e)=>{
-    return e.name
-}).filter((e)=>{
-    return e.includes("A")
-})
+// } 
+// ).map((e)=>{
+//     return e.name
+// }).filter((e)=>{
+//     return e.includes("A")
+// })
 
-console.log(ans)
+// console.log(ans)
 
-
+let sArr=[1,1,2,1,1,1]
+sArr.reduce((a,current,index)=>{
+    console.log(a)
+    return 
+},)
 
 
 
