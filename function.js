@@ -16,7 +16,7 @@
 
     // name()
 
-      //  IIFE function ------------------------------
+      //  IIFE (Immediately Invoked function Expressions ) function ------------------------------
 
       // (
       //  function(){

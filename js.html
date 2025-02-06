@@ -4,6 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   font-family: "Poppins", serif;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#container{
+    position: relative;
+    max-width: 430px;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    padding: 34px;
+}
+#container h2{
+    position: relative;
+    font-size: 22px;
+    font-weight: 700;
+    color: #333;
+}
+
+    </style>
 </head>
 <body>
 
@@ -20,6 +53,104 @@
     <!-- <em>this is for check em tag</em> -->
     <!-- <abbr title="checking">bro</abbr> -->
     <!-- <div class="container" style="display: flex; justify-content:space-between; color:red;"></div> -->
+
+
+     <!-- <form>
+
+                    <p id="uename"></p>
+    Enter Name:    <input type="text" id="uname"> <br> <br>
+
+                    <p id="ueemail"></p>
+    Enter Email:   <input type="text" id="uemail"> <br> <br>
+
+                      <p id="uenumber"></p>
+    Enter Number:  <input type="text" id="unumber">  <br> <br>
+
+                       <p id="uepassword"></p>
+    Enter Password: <input type="text" id="upassword">  <br> <br> 
+
+                         <p id="uecpassword"></p>
+    Confrim Password:  <input type="text" id="ucpassword">  <br> <br>
+        
+         <input type="submit" value="Sign Up" onclick="return okk()">
+     </form> -->
+
+       <!-- <table border="1">
+
+        <thead>
+            <tr>
+                <td>Name</td>
+                <td>Class</td>
+                <td>Passion</td>
+            </tr>
+        </thead> 
+
+        <tbody id="container">
+
+    
+
+             
+        </tbody>   
+
+       </table> -->
+
+
+        <!-- <form>
+
+         <p id="ename"></p>
+          Enter Name:   <input type="text" id="name">   <br> <br>
+
+          <p id="eemail"></p>
+          Enter Email:   <input type="text" id="email">  <br> <br>
+
+          <p id="enumber"></p>
+          Enter Numnber   <input type="text" id="number">   <br> <br>
+
+          <p id="epassword"></p>
+          Enter Password  <input type="text" id="password">   <br> <br>
+
+          <p id="ecpassword"></p>
+          Confirm Password  <input type="text" id="cpassword">   <br> <br>
+
+          <input type="submit" onclick="return onc()">
+   
+  
+        </form> -->
+
+    <div id="container">
+        <h2>Sign Up</h2>
+        <form action="#">
+
+            <div>
+        <input type="text" placeholder="Enter your name">
+            </div>
+
+            <div>
+        <input type="text" placeholder="Enter your email">
+    </div>
+
+         <div>
+        <input type="text" placeholder="Enter your password">
+         </div>
+
+         <div>
+        <input type="text" placeholder="confirm Password">
+         </div>
+      
+         <div>
+            <input type="checkbox">
+            <h3>I accept all terms and conditions</h3>
+         </div>
+        <div>
+            <input type="submit" value="Sign Up">
+        </div>
+
+        <div class="text"><h3>Already have an account? <a href="#">Login Now</a></h3></div>
+
+
+
+        </form>
+    </div>
 
     <script src="js.js"></script>
 </body>

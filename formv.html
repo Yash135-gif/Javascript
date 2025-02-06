@@ -6,37 +6,63 @@
     <title>Document</title>
 </head>
 <style>
+    body{
+        background-color: black;
+    }
     form{
         margin-top: 0;
+        background-color: khaki;
+        width: 600px;
+        height: 500px;
+        box-sizing: border-box;
+        padding: 30px 20px;
+        margin-top: 8%;
+        margin-left: 27%;
+        padding-left: 40px;
     }
     form p{
-        margin-left: 95px;
+        margin-left: 170px;
         margin-bottom: 0;
+        color: red;
+    }
+    form input{
+        width: 300px;
+        height: 30px;
+        outline: none;
+        border-radius:6px;
+    }
+    .last{
+        width: 120px; 
+        height: 30px;
+         border-radius: 5px; 
+         border: 1px solid black;
+        margin-top: 5%;
+      
     }
 </style>
 <body>
 
     <form>
     <p id="errname"></p> 
-    Enter Name:  <input type="text" id="name" style="margin-left: 40px;"> <br> <br>
+    Enter Name:  <input type="text" id="name" style="margin-left: 75px;"> <br> <br>
 
 
     <p id="erremail"></p> 
-    Enter email:  <input type="text" id="email" style="margin-left: 40px;">  <br> <br>
+    Enter email:  <input type="text" id="email" style="margin-left: 77px;">  <br> <br>
 
 
     <p id="errnumber"></p> 
-    Enter Number:  <input type="text" id="number" style="margin-left: 23px;">  <br> <br>
+    Enter Number:  <input type="text" id="number" style="margin-left: 60px;">  <br> <br>
 
 
     <p id="errpassword"></p> 
-    Enter password:  <input type="text" id="password" style="margin-left: 25px;">  <br> <br>
+    Enter password:  <input type="text" id="password" style="margin-left: 52px;">  <br> <br>
 
 
     <p id="errcpassword"></p> 
-    Enter confirm <br>password:  <input type="text" id="cpassword" style="margin-left: 50px;">  <br> <br>
+  confirm password:  <input type="text" id="cpassword" style="margin-left: 34px;">  <br> <br>
 
-    <input type="submit" value="Sign Up" onclick="return letsgo()">
+    <input type="submit" value="Sign Up" class="last" onclick="return letsgo()">
   
     </form>
 

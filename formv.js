@@ -17,23 +17,57 @@ let letsgo=()=>{
         return false
     }
     else if(email=="") {
-        erremail.innerHTML="please fill the name"
+        erremail.innerHTML="please fill the email"
         return false
     }
     else if(number=="") {
-        errnumber.innerHTML="please fill the name"
+        errnumber.innerHTML="please fill your number"
         return false
+
     }
     else if(password=="") {
-        errpassword.innerHTML="please fill the name"
+        errpassword.innerHTML="please enter the password"
         return false
     }
     else if(cpassword=="") {
-        errcpassword.innerHTML="please fill the name"
+        errcpassword.innerHTML="please confirm the password"
+        return false
+    }
+    else if(!(isNaN(name))){
+       errname.innerHTML="please enter valid name"
         return false
     }
 
+    else if(!(email.includes("@") && email.includes(".com"))){
+        errname.innerHTML=""
+        erremail.innerHTML="enter valid email"
+        return false
+    }
+
+    else if(isNaN(number)){
+        errname.innerHTML=""
+        erremail.innerHTML=""
+        errnumber.innerHTML="please enter the valid number"
+        return false
+    }
+    else if(number.length!=10){
+        errnumber.innerHTML="please enter 10 digit number"
+        errpassword.innerHTML=""
+        return false
     
+    }
+
+   else if(password!=cpassword){
+
+        errcpassword.innerHTML="Password and Confirm password should be the same"
+        return false
+    }
+
+      
+//  if(password!=cpassword){
+//       errpassword.innerHTML="Your entered different password"
+//       return false
+//    }
 
 
 }
