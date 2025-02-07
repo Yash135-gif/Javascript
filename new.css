@@ -1,0 +1,60 @@
+
+      /* Psuedo class ----------------------------------------------- */
+  
+a:link{
+    color: red;
+}
+
+
+a:visited{
+    color:brown;
+}
+
+a:active{
+    color:chocolate;
+    border: 4px solid green;
+}
+a:hover{
+    color: chartreuse;
+}
+
+ul li:first-child{
+    color: orange;
+}
+
+ul li:last-child{
+    color: aquamarine;
+} 
+
+
+ul li:nth-child(2n+1){
+    background-color: brown;
+}
+
+   /* psuedo Elements ----------------------------------------------------------------- */
+
+p::first-letter{
+   color: blue;
+   font-size: 3rem;
+}
+
+p::first-line{
+    background-color: burlywood;
+}
+
+::selection{
+    color: green;
+    background-color: blue;
+}
+
+p::before{
+   content: "*";
+}
+
+p::after{
+    content: "*";
+ }
+
+ 
+
+

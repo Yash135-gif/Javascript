@@ -4,63 +4,76 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+         
+    *{
+        font-family: "Poppins", serif;
+        box-sizing: border-box; 
+        margin: 0;
+        padding: 0;
+    }
+
+        body{
+            background-color: black;
+        }
+        form{
+            margin-top: 0;
+            background-color: khaki;
+            width: 600px;
+            height: 500px;
+            box-sizing: border-box;
+            padding: 30px 20px;
+            margin-top: 8%;
+            margin-left: 27%;
+            padding-left: 40px;
+        }
+        form p{
+            margin-left: 170px;
+            margin-bottom: 0;
+            color: red;
+            font-size: 14px;
+        }
+        form input{
+            width: 300px;
+            height: 30px;
+            outline: none;
+            border-radius:6px;
+            padding-left: 10px;
+        }
+        .last{
+            width: 120px; 
+            height: 30px;
+             border-radius: 5px; 
+             border: 1px solid black;
+            margin-top: 5%;
+          
+        }
+    </style>
 </head>
-<style>
-    body{
-        background-color: black;
-    }
-    form{
-        margin-top: 0;
-        background-color: khaki;
-        width: 600px;
-        height: 500px;
-        box-sizing: border-box;
-        padding: 30px 20px;
-        margin-top: 8%;
-        margin-left: 27%;
-        padding-left: 40px;
-    }
-    form p{
-        margin-left: 170px;
-        margin-bottom: 0;
-        color: red;
-    }
-    form input{
-        width: 300px;
-        height: 30px;
-        outline: none;
-        border-radius:6px;
-    }
-    .last{
-        width: 120px; 
-        height: 30px;
-         border-radius: 5px; 
-         border: 1px solid black;
-        margin-top: 5%;
-      
-    }
-</style>
+
+
 <body>
 
     <form>
     <p id="errname"></p> 
-    Enter Name:  <input type="text" id="name" style="margin-left: 75px;"> <br> <br>
+    Enter Name:  <input type="text" id="name" style="margin-left: 75px;" placeholder="Enter Name"> <br> <br>
 
 
     <p id="erremail"></p> 
-    Enter email:  <input type="text" id="email" style="margin-left: 77px;">  <br> <br>
+    Enter email:  <input type="text" id="email" style="margin-left: 77px;" placeholder="Enter Email">  <br> <br>
 
 
     <p id="errnumber"></p> 
-    Enter Number:  <input type="text" id="number" style="margin-left: 60px;">  <br> <br>
+    Enter Number:  <input type="text" id="number" style="margin-left: 57px;" placeholder="Mobile number">  <br> <br>
 
 
     <p id="errpassword"></p> 
-    Enter password:  <input type="text" id="password" style="margin-left: 52px;">  <br> <br>
+    Enter password:  <input type="text" id="password" style="margin-left: 45px;" placeholder="Password">  <br> <br>
 
 
     <p id="errcpassword"></p> 
-  confirm password:  <input type="text" id="cpassword" style="margin-left: 34px;">  <br> <br>
+  confirm password:  <input type="text" id="cpassword" style="margin-left: 24px;" placeholder="Confirm Password">  <br> <br>
 
     <input type="submit" value="Sign Up" class="last" onclick="return letsgo()">
   

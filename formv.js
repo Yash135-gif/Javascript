@@ -50,24 +50,32 @@ let letsgo=()=>{
         errnumber.innerHTML="please enter the valid number"
         return false
     }
+
+ 
     else if(number.length!=10){
         errnumber.innerHTML="please enter 10 digit number"
         errpassword.innerHTML=""
         return false
-    
     }
 
-   else if(password!=cpassword){
 
+    else if((!(password.match(/[1234567890]/))) &&
+    !(password.match(/[a-z]/))
+       && !(password.match(/[A-Z]/))
+       && !(password.match(/[!@#$%^&*()]/))
+    )  
+   {
+     errpassword.innerHTML="enter the strong password"
+     return false
+
+   }
+   else if(password!=cpassword){
+        
         errcpassword.innerHTML="Password and Confirm password should be the same"
         return false
     }
 
       
-//  if(password!=cpassword){
-//       errpassword.innerHTML="Your entered different password"
-//       return false
-//    }
-
+      
 
 }

@@ -402,9 +402,13 @@
 //   }
   
 
+   let okk=()=>{
 
-
-
+   
+    let check=document.querySelector("#ename")
+    check.innerHTML="this is working"
+    
+   }
 
 
 
