@@ -402,30 +402,117 @@
 //   }
   
 
-   let okk=()=>{
+//    let okk=()=>{
 
    
-    let check=document.querySelector("#ename")
-    check.innerHTML="this is working"
+//     let check=document.querySelector("#ename")
+//     check.innerHTML="this is working"
     
-   }
+//    }
+
+// let chalo=()=>{
+//     let name=document.querySelector("#name").value
+//     let email=document.querySelector("#email").value
+//     let number=document.querySelector("#number").value
+//     let password=document.querySelector("#password").value
+//     let cpassword=document.querySelector("#cpassword").value
+
+//     let ename=document.querySelector("#ename")
+//     let eemail=document.querySelector("#eemail")
+//     let enumber=document.querySelector("#enumber")
+//     let epassword=document.querySelector("#epassword")
+//     let ecpassword=document.querySelector("#ecpassword")
+
+//     if(name==""){
+//        ename.innerHTML="please fill the name"
+//         return false
+//     }
+
+//     else if(email==""){
+//            ename.innerHTML=""
+//           eemail.innerHTML="please fill the email"
+//           return false
+//     }
+
+//    else if(!(email.includes("@") && email.includes(".com")) ){
+//          ename.innerHTML=""
+//          eemail.innerHTML="please fill valid email"
+//          return false
+//    }
+  
+//     else if(number==""){
+//            ename.innerHTML=""
+//         enumber.innerHTML="please fill the number"
+//         return false
+//     }
+  
+//     else if(isNaN(number)){
+//           ename.innerHTML=""
+          
+//         enumber.innerHTML="please enter valid number"
+//         return false
+//     }
+//     else if(number.length!=10){
+//           ename.innerHTML=""
+//       enumber.innerHTML="please enter 10 digit number"
+//       return false
+//     }
 
 
+//     else if(password==""){
+//            ename.innerHTML=""
+//            enumber.innerHTML=""
+//         epassword.innerHTML="please fill the password"
+//         return false
+//     }
+
+//     else if(!(password.match(/[0-9]/)
+//     && password.match(/[A-Z]/)&& 
+//       password.match(/[a-z]/) 
+//     && password.match(/[!@#$%^&*()]/))){
+//           ename.innerHTML=""
+//           enumber.innerHTML=""
+
+//         epassword.innerHTML="please make strong password"
+//         return false
+      
+//     }
+//     else if(cpassword==""){
+//            ename.innerHTML=""
+//            enumber.innerHTML=""
+
+//         ecpassword.innerHTML="please confirm the password"
+//         return false
+//     }
+
+//    else if(password!=cpassword){
+//       ename.innerHTML=""
+//       enumber.innerHTML=""
+//       eemail.innerHTML=""
+//     ecpassword.innerHTML="password and confirm password should be the same"
+//     document.querySelector("#cpassword").value=""
+//     document.querySelector("#cpassword").focus()
+//     return false
+//    }
 
 
+// }
+   
 
 
+let store=""
 
+let dis=(value)=>{
+    let show=document.querySelector("#display")
+    store=store+value
+    show.innerHTML=store
+    
+}
 
+let res=()=>{
+    let show=document.querySelector("#display")
+    show.innerHTML=eval(store)
 
-
-
-
-
-
-
-
-
-
-
-
+    store=eval(store)
+    store.toString()
+}
