@@ -499,20 +499,30 @@
 // }
    
 
+//   let store=""
+//   let dis=(value)=>{
+//     let show=document.querySelector("#display")
+//     store=store+value
+//     show.innerHTML=store
+//   }
+  
+//   let res=()=>{
+//     let show=document.querySelector("#display")
+//     show.innerHTML=eval(store)
+//     store=eval(store)
+//     store.toString()
+//   }
 
-let store=""
+//  let del=()=>{
+//     let show=document.querySelector("#display")
+//      store=store.slice(0,-1)   
+//     show.innerHTML=store
+//  }
 
-let dis=(value)=>{
-    let show=document.querySelector("#display")
-    store=store+value
-    show.innerHTML=store
-    
-}
+//  let aC=()=>{
+//     let show=document.querySelector("#display")
+//     show.innerHTML=""
+//     store=""
+//  }
 
-let res=()=>{
-    let show=document.querySelector("#display")
-    show.innerHTML=eval(store)
-
-    store=eval(store)
-    store.toString()
-}
+ 
