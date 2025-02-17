@@ -22,11 +22,11 @@
     
     // ------------------------------------ 5 --------------------------------------
 
-    // let arr=[]
-    //  for(let i=0;i<3;i++){
-    //    arr[i]= prompt("enter the fruit name")
-    //  }
-    //    alert("Your favourite fruits are: [ " +arr + " ]")
+    let arr=[]
+     for(let i=0;i<3;i++){
+       arr[i]= prompt("enter the fruit name")
+     }
+       alert("Your favourite fruits are: [ " +arr + " ]")
 
 //    ------------------------------------- 7 ---------------------------------------
 

@@ -1,5 +1,40 @@
-// let name="firstname"
+let start=()=>{
 
+   let iTaken=document.querySelector("#iTaken").value
+   let tS=document.querySelector("#tS")
+
+   let a=setInterval(()=>{
+
+      tS.innerHTML=iTaken
+      iTaken=iTaken-1
+
+      if(iTaken<0){
+        clearInterval(a)
+    }
+   },1000)
+
+}
+
+
+// let start=()=>{
+
+    
+//   let show=document.querySelector("#value").value
+//   let count=show
+//   let a= setInterval(()=>{
+//      let ws=document.querySelector("#ws")
+//      ws.innerHTML=count
+//      count=count-1
+ 
+//    },1000)
+
+ 
+// }
+
+
+
+
+// let name="firstname"
 // let user={'first-name':'akash', lastname:'singh', education:12, city:"Bangalore"}
 // let user2={firstname:'akash' ,lastname:'singh' ,education:12, city:"Bangalore"}
 
@@ -525,4 +560,75 @@
 //     store=""
 //  }
 
- 
+
+    // setTimeout ------------------------------------------------------
+
+//   let text=()=>{
+//     setTimeout(() => {
+//          document.querySelector("#show").innerHTML="Welcome to my house"
+
+//     },3000);
+//   }
+
+//    setInetval ---------------------------------------------------
+
+// let count=0
+
+// let name
+
+
+
+// let time=document.querySelector("#time").value
+
+//   let name
+//   let text=()=>{
+//      name =setInterval(() => {
+
+//       show.innerHTML=time
+//       time=time-1
+     
+//     },1000)
+//   }
+
+//    clearInterval ------------------------------------
+  
+
+
+// let st=()=>{
+//       clearInterval(name)
+// }
+
+
+// let gtime=document.querySelector("#time").value
+// let g
+// let show=document.querySelector("#show")
+// let text=()=>{
+
+//    g= setInterval(()=>{
+
+//     show.innerHTML=gtime
+//     gtime=gtime-1
+
+//     if(gtime<0){
+//         clearInterval(g)
+//     }
+//    },1000)
+// }
+
+
+
+
+
+// console.log(time)
+// let arr=["Sun","Mon","Tue"]
+// console.log(arr[time.getDay()])
+// let time=new Date()
+// let show=document.querySelector("#show")
+// let just=()=>{
+
+
+//     show.innerHTML=`${time.getHours()}: ${time.getMinutes()}: ${time.getSeconds()}`
+// }
+// setInterval(just(),1000)
+
+

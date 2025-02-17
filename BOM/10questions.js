@@ -124,26 +124,26 @@
    
   //  Guessing Game
 
-//  function play(){
+ function play(){
   
-//   for(let i=1;i<=3;i++){
-//     let number=parseInt(prompt("enter any number between 1 and 20"))
-//    if(number==10){
-//     alert("congo,You won the game")
-//     break;
-//    }
-//    else if(number<10){
-//     alert("Too low")
-//    }
-//    else if(number>10){
-//     alert("Too high")
-//    }
-//    if(number!=10){
-//    aler
-// t("you loss")
-//    }
-//  }
-// }  
+  for(let i=1;i<=3;i++){
+    let number=parseInt(prompt("enter any number between 1 and 20"))
+   if(number==10){
+    alert("congo,You won the game")
+    break;
+   }
+   else if(number<10){
+    alert("Too low")
+   }
+   else if(number>10){
+    alert("Too high")
+   }
+   if(number!=10){
+   aler
+t("you loss")
+   }
+ }
+}  
 
   
   
