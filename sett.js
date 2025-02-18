@@ -1,3 +1,61 @@
+
+// let start=()=>{
+  
+//     let tS=document.querySelector("#ts")
+//     let store=document.querySelector("#ivalue").value
+
+//     let a=setInterval(()=>{
+
+//        tS.innerHTML=store
+//        store=store-1
+
+//        if(store<0){
+//         clearInterval(a)
+//        }
+
+//  },
+// 1000)
+
+// }
+
+
+
+
+
+// let start=()=>{
+
+//    let iTaken=document.querySelector("#iTaken").value
+//    let tS=document.querySelector("#tS")
+
+//    let a=setInterval(()=>{
+
+//       tS.innerHTML=iTaken
+//       iTaken=iTaken-1
+
+//       if(iTaken<0){
+//         clearInterval(a)
+//     }
+//    },1000)
+
+// }
+
+
+// let start=()=>{
+
+    
+//   let show=document.querySelector("#value").value
+//   let count=show
+//   let a= setInterval(()=>{
+//      let ws=document.querySelector("#ws")
+//      ws.innerHTML=count
+//      count=count-1
+ 
+//    },1000)
+
+ 
+// }
+
+
 // setTimeout(` console.log("hii") 
 //      console.log("name")`,500)
 
