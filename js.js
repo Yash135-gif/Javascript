@@ -1,4 +1,14 @@
 
+VANTA.WAVES({
+   el: "#checking",
+   mouseControls: true,
+   touchControls: true,
+   gyroControls: false,
+   minHeight: 200.00,
+   minWidth: 200.00,
+   scale: 1.00,
+   scaleMobile: 1.00
+ })
 
 
 
@@ -54,17 +64,17 @@
 // ]
 
 
-    // ------------------------------ Map ,filter, for Each --------------------------------
+//     ------------------------------ Map ,filter, for Each --------------------------------
 
-    // let a1=[4,7,9,2,5,7,6]
+//     let a1=[4,7,9,2,5,7,6]
 
-    //    Map 
+//        Map 
 
 
-    // let ans=a1.map((e)=>{
-    //     return e*2
-    // }
-    // )
+//     let ans=a1.map((e)=>{
+//         return e*2
+//     }
+//     )
 
 
 //    let a1=[2,3,4,6,5,7,5]
@@ -200,43 +210,43 @@
 //     return 
 // },)
 
-// let okk=()=>{
+let okk=()=>{
 
-//     let uname=document.querySelector("#uname").value
-//     let uemail=document.querySelector("#uemail").value
-//     let unumber=document.querySelector("#unumber").value
-//     let upassword=document.querySelector("#upassword").value
-//     let ucpassword=document.querySelector("#ucpassword").value
+    let uname=document.querySelector("#uname").value
+    let uemail=document.querySelector("#uemail").value
+    let unumber=document.querySelector("#unumber").value
+    let upassword=document.querySelector("#upassword").value
+    let ucpassword=document.querySelector("#ucpassword").value
 
-//     let uename=document.querySelector("#uename")
-//     let ueemail=document.querySelector("#ueemail")
-//     let uenumber=document.querySelector("#uenumber")
-//     let uepassword=document.querySelector("#uepassword")
-//     let uecpassword=document.querySelector("#uecpassword")
+    let uename=document.querySelector("#uename")
+    let ueemail=document.querySelector("#ueemail")
+    let uenumber=document.querySelector("#uenumber")
+    let uepassword=document.querySelector("#uepassword")
+    let uecpassword=document.querySelector("#uecpassword")
 
-//      if(uname==""){
-//         uename.innerHTML="please fill the name"
-//         return false
+     if(uname==""){
+        uename.innerHTML="please fill the name"
+        return false
         
-//      }
-//      else if(uemail==""){
-//         ueemail.innerHTML="please fill the email"
-//         return false
-//      }
-//      else if(unumber==""){
-//         uenumber.innerHTML="please fill your number"
-//         return false
-//      }
-//      else if(upassword==""){
-//         uepassword.innerHTML="please fill the password"
-//         return false
-//      }
-//      else if(ucpassword==""){
-//         uecpassword.innerHTML="please confirm the password"
-//         return false
-//      }
+     }
+     else if(uemail==""){
+        ueemail.innerHTML="please fill the email"
+        return false
+     }
+     else if(unumber==""){
+        uenumber.innerHTML="please fill your number"
+        return false
+     }
+     else if(upassword==""){
+        uepassword.innerHTML="please fill the password"
+        return false
+     }
+     else if(ucpassword==""){
+        uecpassword.innerHTML="please confirm the password"
+        return false
+     }
 
-// }
+}
 
 //    let peoples=[
 //     {
@@ -321,89 +331,89 @@
 //     }
 //   )()
 
-//   let onc=()=>{
+  let onc=()=>{
 
 
-//      let name=document.querySelector("#name").value
-//      let email=document.querySelector("#email").value
-//      let number=document.querySelector("#number").value
-//      let password=document.querySelector("#password").value
-//      let cpassword=document.querySelector("#cpassword").value
+     let name=document.querySelector("#name").value
+     let email=document.querySelector("#email").value
+     let number=document.querySelector("#number").value
+     let password=document.querySelector("#password").value
+     let cpassword=document.querySelector("#cpassword").value
 
-//      let ename=document.querySelector("#ename")
-//      let eemail=document.querySelector("#eemail")
-//      let enumber=document.querySelector("#enumber")
-//      let epassword=document.querySelector("#epassword")
-//      let ecpassword=document.querySelector("#ecpassword")
+     let ename=document.querySelector("#ename")
+     let eemail=document.querySelector("#eemail")
+     let enumber=document.querySelector("#enumber")
+     let epassword=document.querySelector("#epassword")
+     let ecpassword=document.querySelector("#ecpassword")
 
     
-//      if(name==""){
-//         ename.innerHTML="please fill your name"
-//         return false
-//      }
-//      else if((!isNaN(name))){
-//         ename.innerHTML="enter valid name"
-//         return false
-//      }
+     if(name==""){
+        ename.innerHTML="please fill your name"
+        return false
+     }
+     else if((!isNaN(name))){
+        ename.innerHTML="enter valid name"
+        return false
+     }
 
-//      else if(email==""){
-//         ename.innerHTML=""
-//         eemail.innerHTML="please fill the email"
-//         return false
+     else if(email==""){
+        ename.innerHTML=""
+        eemail.innerHTML="please fill the email"
+        return false
 
-//      }
+     }
 
-//       else if(!(email.includes("@") && email.includes(".com"))){
+      else if(!(email.includes("@") && email.includes(".com"))){
            
-//         eemail.innerHTML="please enter valid email"
-//         return false
-//       }
+        eemail.innerHTML="please enter valid email"
+        return false
+      }
 
-//      else if(number==""){
-//         eemail.innerHTML=""
-//         enumber.innerHTML="please enter the number"
-//         return false
+     else if(number==""){
+        eemail.innerHTML=""
+        enumber.innerHTML="please enter the number"
+        return false
          
-//      }
+     }
 
-//      else if(isNaN(number)){
-//         enumber.innerHTML="please enter valid number"
-//          return false
-//      }
-//      else if(number.length!=10){
-//         enumber.innerHTML="please enter 10 digit number"
-//         return false
-//      }
+     else if(isNaN(number)){
+        enumber.innerHTML="please enter valid number"
+         return false
+     }
+     else if(number.length!=10){
+        enumber.innerHTML="please enter 10 digit number"
+        return false
+     }
 
-//      else if(password==""){
-//         enumber.innerHTML=""
-//         epassword.innerHTML="please enter the password "
-//         return false
+     else if(password==""){
+        enumber.innerHTML=""
+        epassword.innerHTML="please enter the password "
+        return false
 
-//      }
+     }
 
-//     //  else if(!(password.match("/[1234567890]/")     
-//     //      && password.match("/[a-z]/") 
-//     //     && password.match("/[A-Z]/")
-//     //     && password.match("/[@$%^&*()!]/"))){
-//     //            eemail.innerHTML=""
-//     //         epassword.innerHTML="Make the password strong"
-//     //         return false
-//     //      }
+    //  else if(!(password.match("/[1234567890]/")     
+    //      && password.match("/[a-z]/") 
+    //     && password.match("/[A-Z]/")
+    //     && password.match("/[@$%^&*()!]/"))){
+    //            eemail.innerHTML=""
+    //         epassword.innerHTML="Make the password strong"
+    //         return false
+    //      }
 
-//      else if(cpassword==""){
-//         enumber.innerHTML=""
-//         ecpassword.innerHTML="please confirm your password"
-//         return false
-//      }
+     else if(cpassword==""){
+        enumber.innerHTML=""
+        ecpassword.innerHTML="please confirm your password"
+        return false
+     }
 
-//     else if(password!=cpassword){
-//         enumber.innerHTML=""
-//         ecpassword.innerHTML="password and confirm password should be same"
-//         return false
-//     }
+    else if(password!=cpassword){
+        enumber.innerHTML=""
+        ecpassword.innerHTML="password and confirm password should be same"
+        return false
+    }
 
-//   }
+  }
   
 
 //    let okk=()=>{
@@ -414,93 +424,102 @@
     
 //    }
 
-// let chalo=()=>{
-//     let name=document.querySelector("#name").value
-//     let email=document.querySelector("#email").value
-//     let number=document.querySelector("#number").value
-//     let password=document.querySelector("#password").value
-//     let cpassword=document.querySelector("#cpassword").value
+let chalo=()=>{
+    let name=document.querySelector("#name").value
+    let email=document.querySelector("#email").value
+    let number=document.querySelector("#number").value
+    let password=document.querySelector("#password").value
+    let cpassword=document.querySelector("#cpassword").value
 
-//     let ename=document.querySelector("#ename")
-//     let eemail=document.querySelector("#eemail")
-//     let enumber=document.querySelector("#enumber")
-//     let epassword=document.querySelector("#epassword")
-//     let ecpassword=document.querySelector("#ecpassword")
+    let ename=document.querySelector("#ename")
+    let eemail=document.querySelector("#eemail")
+    let enumber=document.querySelector("#enumber")
+    let epassword=document.querySelector("#epassword")
+    let ecpassword=document.querySelector("#ecpassword")
 
-//     if(name==""){
-//        ename.innerHTML="please fill the name"
-//         return false
-//     }
+    if(name==""){
+       ename.innerHTML="please fill the name"
+        return false
+    }
 
-//     else if(email==""){
-//            ename.innerHTML=""
-//           eemail.innerHTML="please fill the email"
-//           return false
-//     }
+    else if(email==""){
+           ename.innerHTML=""
+          eemail.innerHTML="please fill the email"
+          ename.innerHTML=""
+          return false
+         
+    }
 
-//    else if(!(email.includes("@") && email.includes(".com")) ){
-//          ename.innerHTML=""
-//          eemail.innerHTML="please fill valid email"
-//          return false
-//    }
+   else if(!(email.includes("@") && email.includes(".com")) ){
+         ename.innerHTML=""
+         eemail.innerHTML="please fill valid email"
+         ename.innerHTML=""
+         return false
+   }
   
-//     else if(number==""){
-//            ename.innerHTML=""
-//         enumber.innerHTML="please fill the number"
-//         return false
-//     }
+    else if(number==""){
+           ename.innerHTML=""
+        enumber.innerHTML="please fill the number"
+        ename.innerHTML=""
+        return false
+    }
   
-//     else if(isNaN(number)){
-//           ename.innerHTML=""
+    else if(isNaN(number)){
+          ename.innerHTML=""
           
-//         enumber.innerHTML="please enter valid number"
-//         return false
-//     }
-//     else if(number.length!=10){
-//           ename.innerHTML=""
-//       enumber.innerHTML="please enter 10 digit number"
-//       return false
-//     }
+        enumber.innerHTML="please enter valid number"
+        ename.innerHTML=""
+        return false
+    }
+    else if(number.length!=10){
+          ename.innerHTML=""
+      enumber.innerHTML="please enter 10 digit number"
+      ename.innerHTML=""
+      return false
+    }
 
 
-//     else if(password==""){
-//            ename.innerHTML=""
-//            enumber.innerHTML=""
-//         epassword.innerHTML="please fill the password"
-//         return false
-//     }
+    else if(password==""){
+           ename.innerHTML=""
+           enumber.innerHTML=""
+        epassword.innerHTML="please fill the password"
+        ename.innerHTML=""
+        return false
+    }
 
-//     else if(!(password.match(/[0-9]/)
-//     && password.match(/[A-Z]/)&& 
-//       password.match(/[a-z]/) 
-//     && password.match(/[!@#$%^&*()]/))){
-//           ename.innerHTML=""
-//           enumber.innerHTML=""
+    else if(!(password.match(/[0-9]/)
+    && password.match(/[A-Z]/)&& 
+      password.match(/[a-z]/) 
+    && password.match(/[!@#$%^&*()]/))){
+          ename.innerHTML=""
+          enumber.innerHTML=""
 
-//         epassword.innerHTML="please make strong password"
-//         return false
+        epassword.innerHTML="please make strong password"
+        ename.innerHTML=""
+        return false
       
-//     }
-//     else if(cpassword==""){
-//            ename.innerHTML=""
-//            enumber.innerHTML=""
+    }
+    else if(cpassword==""){
+           ename.innerHTML=""
+           enumber.innerHTML=""
 
-//         ecpassword.innerHTML="please confirm the password"
-//         return false
-//     }
+        ecpassword.innerHTML="please confirm the password"
+        ename.innerHTML=""
+        return false
+    }
 
-//    else if(password!=cpassword){
-//       ename.innerHTML=""
-//       enumber.innerHTML=""
-//       eemail.innerHTML=""
-//     ecpassword.innerHTML="password and confirm password should be the same"
-//     document.querySelector("#cpassword").value=""
-//     document.querySelector("#cpassword").focus()
-//     return false
-//    }
+   else if(password!=cpassword){
+      ename.innerHTML=""
+      enumber.innerHTML=""
+      eemail.innerHTML=""
+    ecpassword.innerHTML="password and confirm password should be the same"
+    document.querySelector("#cpassword").value=""
+    document.querySelector("#cpassword").focus()
+    return false
+   }
 
 
-// }
+}
    
 
 //   let store=""
@@ -530,7 +549,7 @@
 //  }
 
 
-    // setTimeout ------------------------------------------------------
+//     setTimeout ------------------------------------------------------
 
 //   let text=()=>{
 //     setTimeout(() => {
