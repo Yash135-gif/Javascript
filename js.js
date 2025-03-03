@@ -607,16 +607,16 @@ let chalo=()=>{
 
 
 
-// console.log(time)
-// let arr=["Sun","Mon","Tue"]
-// console.log(arr[time.getDay()])
-// let time=new Date()
-// let show=document.querySelector("#show")
-// let just=()=>{
+console.log(time)
+let arr=["Sun","Mon","Tue"]
+console.log(arr[time.getDay()])
+let time=new Date()
+let show=document.querySelector("#show")
+let just=()=>{
 
 
-//     show.innerHTML=`${time.getHours()}: ${time.getMinutes()}: ${time.getSeconds()}`
-// }
-// setInterval(just(),1000)
+    show.innerHTML=`${time.getHours()}: ${time.getMinutes()}: ${time.getSeconds()}`
+}
+setInterval(just(),1000)
 
 
